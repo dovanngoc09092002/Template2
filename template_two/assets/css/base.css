@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+}
+html{
+    scroll-behavior: smooth;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.modal{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    z-index: 99999999999;
+    display: flex;
+    display: none;
+}
+.modal__overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.modal__body{
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    z-index: 999999999999;
+    margin: auto;
+}
+.modal__body__sign{
+
+}
+.modal__body__sign-header{
+width: 100%;
+position: relative;
+height: 36px;
+background-color: #f4f4f2;
+}
+.modal__body__sign-header-name{
+   height: 36px;
+   font-size: 16px;
+   display: flex;
+    align-items: center;
+    padding-left: 24px;
+}
+.fa-xmark{
+    cursor: pointer;
+    float: right;
+    width: 45px;
+    height: 36px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 35px;
+    color:#fff;
+    background-color: #4b8ef1;
+    text-align: center;
+}
+.modal__body__sign-content{
+
+}
+.modal__body__sign-content-face{
+    padding: 15px 0;
+    width: 85%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #f4f4f2;
+}
+.modal__body__sign-content-google{
+    padding: 15px 0;
+    width: 85%;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #f4f4f2;
+}
+.fa-facebook{
+background-color: #3b5998;
+color:#fff;
+font-size: 20px;
+padding: 6px;
+margin: 0 10px;
+}
+.fa-google-plus-g{
+    background-color: #dd4b39;
+    color:#fff;
+    font-size: 20px;
+    padding: 6px 4px;
+    margin: 0 10px;
+}
+.modal__body__sign-content-email{
+    text-align: center;
+    margin-top: 25px;
+    color:#9b9b94
+}
+.modal__body__sign-footer{
+display: flex;
+justify-content: space-around;
+margin: auto;
+margin-top: 10px;
+width: 80%;
+
+}
+.modal__body__sign-footer-login{
+background-color: #4b8ef1;
+color: #fff;
+flex: 1;
+text-align: center;
+margin-right: 5px;
+padding: 10px 0;
+border-radius: 6px;
+
+}
+.modal__body__sign-footer-sign{
+    background-color: #4b8ef1;
+    color: #fff;
+    flex: 1;
+    text-align: center;
+    margin-left: 5px;
+    padding: 10px 0;
+   border-radius: 6px;
+    
+}
+
+.show{
+    display: flex;
+}
+ .header__registry:hover +div{
+    display: flex;
+} 
